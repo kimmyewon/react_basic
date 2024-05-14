@@ -15,12 +15,13 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import Landingpage from './chapter_09/Landingpage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import Signup from './chapter_11/Signup';
+import Calculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Signup />
+    <Calculator />
   </React.StrictMode>
 )
 
